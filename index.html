@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend des 10K - TikTok</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 Rejoins la Trend des 10k ! 🔥</h1>
+        <p>1️⃣ Clique sur le bouton ci-dessous pour t’abonner à tout le monde :</p>
+
+        <a href="https://www.tiktok.com/@ton_compte_tiktok" target="_blank">
+            <button id="abonnementButton">📌 S'abonner à tout le monde</button>
+        </a>
+
+        <p>2️⃣ Ensuite, remplis le formulaire ci-dessous :</p>
+
+        <div class="input-container">
+            <input type="text" id="pseudo" placeholder="Ton pseudo TikTok" required>
+            <input type="url" id="photo" placeholder="URL de ta photo de profil TikTok">
+            <button id="submitBtn" onclick="ajouterPseudo()">✅ Valider</button>
+        </div>
+
+        <h2>🚀 Liste des Membres Inscrits :</h2>
+        <ul id="listePseudos"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
